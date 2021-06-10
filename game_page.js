@@ -33,7 +33,7 @@ function Send() { get_word = document.getElementById("word").value;
 question_turn="player1";
 answer_turn="player2";
 function check(){
-get_answer=document.getElementById("input_checkbox").value;
+get_answer=document.getElementById("input_check_box").value;
 answer=get_answer.toLowerCase();
 console.log("answer in lowercase-" + answer);
 if(answer==word){
